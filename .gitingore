@@ -1,0 +1,2 @@
+#Ignores files built by the user.
+*.nupkg
