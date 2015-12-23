@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>wings3d</id>
+    <title>Wings3D</title>
+    <version>1.5.4</version>
+    <authors>Richard Jones,Bjorn Gustavsson,Andrzej Giniewicz,Dan Gudmundsson</authors>
+    <owners>Adrián Arroyo,Zion Nimchuk</owners>
+    <summary>wings3d</summary>
+    <description>Wings 3D is an advanced subdivision modeler that is both powerful and easy to use. Originally inspired by Nendo and Mirai from Izware, Wings 3D has been developed since 2001, when Björn Gustavsson (bjorng) and Dan Gudmundsson (dgud) first started the project. Richard Jones (optigon) maintained Wings and coded many new features between 2006 and 2011. Wings 3D is currently maintained by Dan and Richard with the help of the great community. Wings 3D offers a wide range of modeling tools, a customizable interface, support for lights and materials, and a built-in AutoUV mapping facility. There is no support in Wings for animation.</description>
+    <projectUrl>http://www.wings3d.com/</projectUrl>
+	<packageSourceUrl>https://github.com/hcorion/choco-wings3d</packageSourceUrl>
+	<docsUrl>http://www.wings3d.com/?page_id=87</docsUrl>
+	<bugTrackerUrl>http://www.wings3d.com/forum/forumdisplay.php?fid=12</bugTrackerUrl>
+	<projectSourceUrl>https://github.com/dgud/wings</projectSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/dgud/wings/ef5284c536d8a2632077797d40ebff35f7ae5339/ebin/wings_icon_379x379.png</iconUrl>
+	<tags>modeler model modeling wings 3D subdivison UV admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.linfo.org/bsdlicense.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Updated .nuspec based on chocolatey guidelines and suggestions.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
