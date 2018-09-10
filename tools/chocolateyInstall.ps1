@@ -1,7 +1,7 @@
 $packageName = 'wings3d'
 $installerType = 'exe'
-$url = 'http://sourceforge.net/projects/wings/files/wings/1.5.4/wings-1.5.4.exe'
-$url64 = 'http://sourceforge.net/projects/wings/files/wings/1.5.4/wings-x64-1.5.4.exe'
+$url = 'https://netix.dl.sourceforge.net/project/wings/wings/2.1.7/wings-2.1.7.exe'
+$url64 = 'https://datapacket.dl.sourceforge.net/project/wings/wings/2.1.7/wings-x64-2.1.7.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 

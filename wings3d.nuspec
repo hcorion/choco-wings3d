@@ -4,7 +4,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>wings3d</id>
     <title>Wings3D</title>
-    <version>1.5.4</version>
+    <version>2.7.1</version>
     <authors>Richard Jones,Bjorn Gustavsson,Andrzej Giniewicz,Dan Gudmundsson</authors>
     <owners>Adrián Arroyo,Zion Nimchuk</owners>
     <summary>wings3d</summary>
@@ -19,7 +19,7 @@
     <copyright></copyright>
     <licenseUrl>http://www.linfo.org/bsdlicense.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Updated .nuspec based on chocolatey guidelines and suggestions.</releaseNotes>
+    <releaseNotes>New upstream release.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
